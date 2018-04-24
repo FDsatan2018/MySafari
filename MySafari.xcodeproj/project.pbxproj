@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FE83C48208F536B00C84991 /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE83C47208F536B00C84991 /* HistoryTableViewController.m */; };
+		5FE83C4B208F537B00C84991 /* LikeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE83C4A208F537B00C84991 /* LikeTableViewController.m */; };
 		5FFB07ED208BB206002F02B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFB07EC208BB206002F02B4 /* AppDelegate.m */; };
 		5FFB07F0208BB206002F02B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFB07EF208BB206002F02B4 /* ViewController.m */; };
 		5FFB07F3208BB206002F02B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FFB07F1208BB206002F02B4 /* Main.storyboard */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FE83C46208F536B00C84991 /* HistoryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		5FE83C47208F536B00C84991 /* HistoryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		5FE83C49208F537B00C84991 /* LikeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeTableViewController.h; sourceTree = "<group>"; };
+		5FE83C4A208F537B00C84991 /* LikeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeTableViewController.m; sourceTree = "<group>"; };
 		5FFB07E8208BB206002F02B4 /* MySafari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySafari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FFB07EB208BB206002F02B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FFB07EC208BB206002F02B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +68,10 @@
 				5FFB07EC208BB206002F02B4 /* AppDelegate.m */,
 				5FFB07EE208BB206002F02B4 /* ViewController.h */,
 				5FFB07EF208BB206002F02B4 /* ViewController.m */,
+				5FE83C46208F536B00C84991 /* HistoryTableViewController.h */,
+				5FE83C47208F536B00C84991 /* HistoryTableViewController.m */,
+				5FE83C49208F537B00C84991 /* LikeTableViewController.h */,
+				5FE83C4A208F537B00C84991 /* LikeTableViewController.m */,
 				5FFB07F1208BB206002F02B4 /* Main.storyboard */,
 				5FFB07F4208BB206002F02B4 /* Assets.xcassets */,
 				5FFB07F6208BB206002F02B4 /* LaunchScreen.storyboard */,
@@ -97,7 +107,7 @@
 		5FFB07E0208BB206002F02B4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = FDsatan;
 				TargetAttributes = {
 					5FFB07E7208BB206002F02B4 = {
@@ -142,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE83C48208F536B00C84991 /* HistoryTableViewController.m in Sources */,
+				5FE83C4B208F537B00C84991 /* LikeTableViewController.m in Sources */,
 				5FFB07F0208BB206002F02B4 /* ViewController.m in Sources */,
 				5FFB07FB208BB206002F02B4 /* main.m in Sources */,
 				5FFB07ED208BB206002F02B4 /* AppDelegate.m in Sources */,
@@ -184,6 +196,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -191,6 +204,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -239,6 +253,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -246,6 +261,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -279,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C9QZTNB83;
 				INFOPLIST_FILE = MySafari/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FDsatan.www.MySafari;
@@ -292,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C9QZTNB83;
 				INFOPLIST_FILE = MySafari/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FDsatan.www.MySafari;
